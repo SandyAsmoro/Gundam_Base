@@ -1,0 +1,274 @@
+:root{
+    --primary-color: rgb(48, 48, 48);
+    --secondary-color: #fff;
+    --third-color: rgb(241, 241, 241);
+    --font-color: #222;
+    --paragraph-color: #465b52;
+    --hover-color: #2d31fa;
+}
+
+form {
+    margin-bottom: 250px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+nav{
+    height: 120px;
+    background: var(--primary-color);
+}
+
+nav img{
+    width: 150px;
+    position: absolute;
+    top: 30px;
+    left: 2%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+    margin-top: 50px;
+    color: #fff;
+    cursor: pointer;;
+    font-size: 20px;
+}
+
+body {
+    background-color:rgb(255, 255, 255) ;
+}
+.container {
+    width: 70%;
+    background-color: white;
+    height: 500px;
+    margin:auto;
+    margin-top : 10%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px 0px rgb(126, 126, 126);
+    
+}
+
+
+.kotak {
+    float: left;
+
+}
+
+.kotak-left {
+    width: 60%;
+    height: 100%;
+    background-image: url(../image/Banner/banner-bg.jpg) ;
+    background-position: absolute;
+    background-position: 1000px 1500px;
+    text-align: center;
+    border-radius: 30px 0 0 30px ;
+}
+
+form .kotak-left .content {
+    margin-top: 170px;
+}
+
+form .kotak-left .content h2 {
+    color: var(--secondary-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+form .kotak-left img {
+    width: 220px;
+    
+}
+
+.kotak-right {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 0 30px 0 30px;
+    
+}
+
+
+
+
+
+
+.container .kotak-left {
+    text-align: center;
+}
+
+.icon {
+    margin : 25px;
+}
+
+.fb {
+    width: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.go{
+    width: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.ic{
+    width: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.container .kotak-right {
+    margin: auto;
+    text-align: center;
+}
+
+.kotak-right h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: black;
+    margin-top: 100px;
+
+    
+}
+
+.kotak-right p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: gray;
+}
+
+.input-name input{
+    margin: 5px;
+    border-color: green;
+    width: 80%;
+    padding: 15px 22px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+.btn2{
+    background-color:var(--primary-color);
+    border-color: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 13px;
+}
+
+@media screen and (max-width: 600px) {
+.kotak {
+    float: none;
+}
+
+.kotak-right {
+    width: 100%;
+    border-radius: 0  0 10px 10px;
+    padding-bottom: 20px;
+    height: auto;
+    margin-top:-20px;
+}
+
+.kotak-right h2 {
+    margin-top: 5%;
+}
+
+.kotak-left {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    border-radius: 10px 10px 0 0;
+}
+
+.title {
+    font-size: 4vh;
+    margin-top: 0%;
+}
+
+.kotak-left p{
+    font-size: 2.2vh;
+    margin-top: 20px;
+}
+
+
+}
+    /* footer */
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background: var(--primary-color);
+        font-family: 'Spartan', sans-serif;
+    }
+    
+    footer .col{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 40px;
+        
+    }
+    
+    footer .logo-2{
+        width: 120px;
+        margin-bottom: 30px;  
+    }
+    
+    footer h4{
+        font-size: 1em;
+        padding-bottom: 20px;
+        color: var(--secondary-color);
+    }
+    
+    footer p{
+        font-size: 0.7em;
+        color: var(--secondary-color);
+        margin: 0 0 8px 0;
+    }
+    
+    footer a{
+        font-size: 0.7em;
+        font-weight: 300;
+        color: var(--secondary-color);
+        margin-bottom: 16px;
+        text-decoration: none;
+    }
+    
+    footer a:hover{
+        color: var(--hover-color);
+    }
+    
+    footer .follow{
+        margin-top: 20px;
+        
+    }
+    
+    footer .follow i{
+        color: var(--secondary-color);
+        padding-right: 4px;
+        cursor: pointer;
+    }
+    
+    footer .follow i:hover{
+        transform: scale(1.3);
+    }
+    
+    footer .copyright{
+        width: 100%;
+        text-align: center;
+        font-weight: 500;
+    }
+    
